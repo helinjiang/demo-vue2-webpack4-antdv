@@ -48,7 +48,10 @@ module.exports = {
     },
     plugins: [
         new VueLoaderPlugin(),
-        new HtmlWebpackPlugin({ template: './src/index.html' }),
+        new HtmlWebpackPlugin({
+            template: './src/index.html',
+            templateParameters: { 'hlj':'helinjiang' },
+        }),
         new webpack.HotModuleReplacementPlugin()
     ],
     devServer: {
