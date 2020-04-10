@@ -2,7 +2,7 @@
     <div id="hello">
         <img :src="logoUrl" alt="logo1">
         <p>Hello,this page is developed by vue2.5.x and webpack4.x</p>
-        <div class="mytest">test logo</div>
+        <div class="mytest">test logo2222ddd</div>
         <a-button type="primary">Primary</a-button>
         <a-button>Default</a-button>
     </div>
@@ -11,7 +11,7 @@
     import logoUrl from '../assets/images/logo.png';
 
     export default {
-        name: 'hello',
+        name: 'hello2',
         data() {
             return {
                 logoUrl
