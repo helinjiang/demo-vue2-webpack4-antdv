@@ -21,7 +21,14 @@ module.exports = {
                     loader: 'babel-loader',
                     options: {
                         presets: ['env'],
-                        plugins: ['transform-runtime']
+                        plugins: [
+                            'transform-runtime',
+                            ['import', {
+                                'libraryName': 'ant-design-vue',
+                                'libraryDirectory': 'es',
+                                'style': 'css'
+                            }]
+                        ]
                     }
                 }
             },

@@ -1,22 +1,16 @@
-import Vue from 'vue'
-import './styles/main.css'
-import App from './App'
+import Vue from 'vue';
+import { Button } from 'ant-design-vue';
+
+import App from './App';
+
+import './styles/main.css';
+
+Vue.use(Button);
 
 new Vue({
-    el:"#app",
-    template:'<App/>',
-    components:{App}
-})
-
-
-// import Vue from 'vue';
-// import App from './App';
-//
-// new Vue({
-//     el:'#app',
-//     // components:{App},
-//     template:'<App />',
-//     render:h=>h(App)
-// });
+    el: '#app',
+    template: '<App/>',
+    components: { App }
+});
 
 
