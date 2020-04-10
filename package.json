@@ -1,0 +1,23 @@
+{
+  "name": "demo-vue2-webpack4-antdv",
+  "version": "1.0.0",
+  "description": "本项目是一个学习项目，用的技术和框架包括：",
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helinjiang/demo-vue2-webpack4-antdv.git"
+  },
+  "author": "helinjiang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helinjiang/demo-vue2-webpack4-antdv/issues"
+  },
+  "homepage": "https://github.com/helinjiang/demo-vue2-webpack4-antdv#readme",
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}

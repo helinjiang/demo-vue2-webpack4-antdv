@@ -7,3 +7,7 @@
 - [antdv](https://www.antdv.com/) v1.x
 
 
+参考文档：
+
+- [从搭建vue-脚手架到掌握webpack配置（一.基础配置）](https://www.jianshu.com/p/f05269760d84)
+- [基于vue2.x的webpack4配置(生产环境~)](https://www.jianshu.com/p/7e619520db28)
