@@ -7,6 +7,11 @@
 - [antdv](https://www.antdv.com/) v1.x
 
 
+TODO
+
+- `<img src="../assets/images/logo.png" alt="logo">` 这种写法有问题，可以用变量引入，或者使用 `background-images`
+
+
 参考文档：
 
 - [从搭建vue-脚手架到掌握webpack配置（一.基础配置）](https://www.jianshu.com/p/f05269760d84)
