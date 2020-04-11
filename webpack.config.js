@@ -50,7 +50,7 @@ module.exports = {
         new VueLoaderPlugin(),
         new HtmlWebpackPlugin({
             template: './src/index.html',
-            templateParameters: { 'hlj':'helinjiang' },
+            templateParameters: { 'hlj': 'helinjiang' }
         }),
         new webpack.HotModuleReplacementPlugin()
     ],
@@ -69,8 +69,5 @@ module.exports = {
             'vue$': 'vue/dist/vue.esm.js',// 'vue/dist/vue.common.js' for webpack 1
             '@': path.resolve(__dirname, './src')
         }
-    },
-    externals: {
-        'jquery': 'window.jQuery'
     }
 };
